@@ -9,5 +9,6 @@ class ChattyStudent < Student
     super
     10.times do |i| 
       self.raise_hand
+    end
   end
 end
