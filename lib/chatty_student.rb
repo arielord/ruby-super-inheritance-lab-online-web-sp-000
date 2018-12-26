@@ -8,7 +8,7 @@ class ChattyStudent < Student
   def raise_hand
     super
     10.times do |i| 
-      self.raise_hand
+      raise_hand
     end
   end
 end
